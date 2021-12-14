@@ -1,0 +1,1 @@
+ "hello world" | Out-File -FilePath .\Process.txt
