@@ -1,1 +1,1 @@
- "hello world" | Out-File -FilePath .\Process.txt
+"hello world" | Out-File -FilePath %USERPROFILE%\Desktop\worked.txt
