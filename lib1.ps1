@@ -1,2 +1,1 @@
- "hello world" | Out-File -FilePath %USERPROFILE%\Desktop\worked.txt
-Write-Host "Done"
+ "hello world" | Out-File -FilePath $env:USERPROFILE\Desktop\worked.txt
