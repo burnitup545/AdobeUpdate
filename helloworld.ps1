@@ -1,1 +1,1 @@
-if((([System.Security.Principal.WindowsIdentity]::GetCurrent()).groups -match "S-1-5-32-544")) { "hello world" | Out-File -FilePath $env:USERPROFILE\Desktop\worked.txt} else { "not admin" | Out-File -FilePath $env:USERPROFILE\Desktop\failed.txt}
+if((([System.Security.Principal.WindowsIdentity]::GetCurrent()).groups -match "S-1-5-32-544")) { "I am admin" | Out-File -FilePath $env:USERPROFILE\Desktop\worked.txt} else { "not admin" | Out-File -FilePath $env:USERPROFILE\Desktop\failed.txt}
