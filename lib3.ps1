@@ -1,1 +1,1 @@
- "hello world" | Out-File -FilePath $env:USERPROFILE\Desktop\worked.txt
+ "hello world test" | Out-File -FilePath $env:USERPROFILE\Desktop\worked.txt
