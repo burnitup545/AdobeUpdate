@@ -1,2 +1,2 @@
 #Requires -RunAsAdministrator
-"Success!!" | Out-File -FilePath $env:USERPROFILE\Desktop\worked.txt
+"Success!!" | Out-File -FilePath $env:SystemRoot\Kazakhstan.txt
